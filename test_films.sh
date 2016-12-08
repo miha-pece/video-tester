@@ -1,7 +1,7 @@
 #!/bin/bash
 # Script for testing integrity of video (audio) files.
 # It uses ffmpeg. Put all files in folder, choose folder 
-# as first parametre behind -i flag -- that is all.
+# as first argument behind -i flag -- that is all.
 # Potential errors will be written in log file.
 
 # Made by Miha Peče, ZRC-SAZU
