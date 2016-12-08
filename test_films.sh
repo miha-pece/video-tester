@@ -93,8 +93,8 @@ else
 fi
 
 function test_video {
-	# Main logic
-	# loglevel 'error' will show only critical errors
+    # Main logic
+    # loglevel 'error' will show only critical errors
     ffmpeg -loglevel warning ${f[@]} -f null - >>$LOG_FILE 2>&1
     echo >>$LOG_FILE 
 }
@@ -122,11 +122,11 @@ for selec_file in "${SELEC_FOLDER}"*; do
 	    usage
 	fi
 
-    echo "Testing file $selec_file" >> $LOG_FILE 
+        echo "Testing file $selec_file" >> $LOG_FILE 
 	# ffmpeg input flag + file
 	f=("-i" "$selec_file")
 
-    test_video
+        test_video
 
 done
 
@@ -139,4 +139,4 @@ printf "%02d:" $(( $ALL_TIME / 3600 ))
 printf "%02d:" $(( ($ALL_TIME % 3600) / 60 ))
 printf "%02d\n" $(( $ALL_TIME % 60 ))
 echo
-echo "Possible errors are logged in $LOG_FILE"
+echo "Potencial errors are logged in $LOG_FILE"
