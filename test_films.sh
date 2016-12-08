@@ -18,9 +18,9 @@ function usage {
 	echo 
 	echo "############################################"
 	echo "#  Mandatory arguments:                    #"
-    echo "#  -i/--input [FOLDER]                     #"
+        echo "#  -i/--input [FOLDER]                     #"
 	echo "#                                          #"
-    echo "#  Script for testing integrity of         #"
+        echo "#  Script for testing integrity of         #"
 	echo "#  video, audio files                      #"
 	echo "#                                          #"
 	echo "############################################"
